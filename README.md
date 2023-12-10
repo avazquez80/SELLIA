@@ -8,21 +8,9 @@ Clone repository to local folder
 
 cli : npm install / this will install project dependencies
 
-cli : npm run testSuite / this will run the project on 3 browsers using one worker
+cli : npm run testSuite / this will run the project on Chrome browser in headed mode, using one worker and open the report after the suite was ran
 
 
-TO RUN ON FIREFOX BROWSER:
+TO OPEN HTML REPORT:
 
-cli : npm run testSuiteff
-
-TO RUN ON CHROME BROWSER:
-
-cli: npm run testSuitech
-
-TO GENERATE ALLURE REPORT:
-
-cli: npm run testAllure
-
-TO OPEN ALLURE REPORT:
-
-cli: npm run openAllure
+cli: npm run openReport
