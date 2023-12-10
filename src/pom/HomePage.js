@@ -13,8 +13,9 @@ class HomePage{
      * 
      * @returns main menu create new label button locator
      */
-    createNewLabelButton(){
-        return this.page.getByRole('button', { name: 'Create' })
+    async createNewLabelButton(){
+        await expect(this.page.getByRole('button', { name: 'Create' })).toBeVisible()
+        await this.page.getByRole('button', { name: 'Create' }).click()
     }
     /**
      * @returns new label name text box locator

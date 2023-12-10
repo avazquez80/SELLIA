@@ -9,7 +9,7 @@ test.describe('Sellia Interview - TC02 - Create category',()=>{
     test('TC02/STEP01 - Create new label', async({page})=>{
         await page.goto(data.URL.GMAIL)
         const homePage = await common.logInProcess(page)
-        await homePage.createNewLabelButton().click()
+        await homePage.createNewLabelButton()
         await homePage.enterLabelName(data.TEXT.NEWLABEL)
         await homePage.clickCreateLabelButton().click()
         await expect(page.getByLabel('testing has menu')).toBeVisible();
