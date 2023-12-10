@@ -11,16 +11,18 @@ cli : npm install / this will install project dependencies
 cli : npm run testSuite / this will run the project on 3 browsers using one worker
 
 
-to run on firefox:
+TO RUN ON FIREFOX BROWSER:
 
 cli : npm run testSuiteff
 
-to run on chrome:
+TO RUN ON CHROME BROWSER:
 
 cli: npm run testSuitech
 
-To generate Allure report:
+TO GENERATE ALLURE REPORT:
+
 cli: npm run testAllure
 
-To open Allure report:
+TO OPEN ALLURE REPORT:
+
 cli: npm run openAllure
