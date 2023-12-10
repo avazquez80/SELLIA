@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "playwright": "^1.40.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.1",
+    "allure-playwright": "^2.9.2"
+  },
+  "scripts": {
+    "runSuite" : "npx playwright test tests/Sellia --workers 1",
+    "testAllure": "npx playwright test tests/Sellia && allure generate reports/allure-results --clean -o reports/allure-report",
+    "openAllure": "allure open reports/allure-report"
+  }
+}

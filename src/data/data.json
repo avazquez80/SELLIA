@@ -1,0 +1,12 @@
+{
+    "URL" : {
+        "GMAIL" : "https://www.gmail.com"
+    },
+
+    "TEXT" : {
+        "USER_ACCOUNT" : "alejastellia@gmail.com",
+        "PASSWORD" : "Pass@159357",
+        "INBOXURL" : "inbox",
+        "NEWLABEL" : "testing"
+    }
+}
