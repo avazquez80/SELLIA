@@ -8,10 +8,6 @@
     "allure-playwright": "^2.9.2"
   },
   "scripts": {
-    "runSuite" : "npx playwright test tests/Sellia --workers 1",
-    "runSuiteff" : "npx playwright test tests/Sellia --workers 1 --project firefox",
-    "runSuitech" : "npx playwright test tests/Sellia --workers 1 --project chrome",
-    "testAllure": "npx playwright test tests/Sellia && allure generate reports/allure-results --clean -o reports/allure-report",
-    "openAllure": "allure open reports/allure-report"
+    "runSuite" : "npx playwright test tests/Sellia --workers 1 --project chromium"
   }
 }
